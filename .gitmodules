@@ -1,0 +1,12 @@
+[submodule "corr"]
+	path = corr
+	url = https://github.com/kloewe/mod-corr.git
+[submodule "corr-m"]
+	path = corr-m
+	url = https://github.com/kloewe/mod-corr-m.git
+[submodule "cpuinfo"]
+	path = cpuinfo
+	url = https://github.com/kloewe/mod-cpuinfo.git
+[submodule "cpuinfo-m"]
+	path = cpuinfo-m
+	url = https://github.com/kloewe/mod-cpuinfo-m.git
