@@ -54,14 +54,14 @@ A description of each function can be displayed in Matlab using
 ```
 
 
-##### Bug Reporting
+##### Bugs
 If you run into problems, please send an email to kl@kristianloewe.com.
 
 
 ##### Citation
 If you use this program, please cite:
 
-Fast construction of voxel-level functional connectivity graphs<br>
-K. Loewe, M. Grueschow, C. Stoppel, R. Kruse, and C. Borgelt<br>
-_BMC Neuroscience 15:78 (2014)_<br>
-[doi](http://dx.doi.org/10.1186/1471-2202-15-78) [pdf](http://www.biomedcentral.com/content/pdf/1471-2202-15-78.pdf)
+Loewe K, Grueschow M, Stoppel C, Kruse R, and Borgelt C (2014).<br>
+Fast construction of voxel-level functional connectivity graphs.<br>
+_BMC Neuroscience_ 15:78.<br>
+[doi](http://dx.doi.org/10.1186/1471-2202-15-78)
