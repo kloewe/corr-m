@@ -10,6 +10,8 @@ usage() {
   printf "%s\n" "  --octave  install for GNU Octave instead of Matlab"
 }
 
+set -e
+
 mod_dir=""
 tgt_dir=""
 octave=""
