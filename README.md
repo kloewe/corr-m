@@ -27,8 +27,8 @@ $ git clone --recursive https://github.com/kloewe/corr-m.git
 Change to the root directory of the extracted archive (or the cloned
 repository) and install corr-m and cpuinfo-m.
 ```
-$ ./install-m.sh <target-dir-corr-m>
-$ ./install-m.sh <target-dir-cpuinfo-m>
+$ ./install-m.sh corr-m <target-dir-corr-m>
+$ ./install-m.sh cpuinfo-m <target-dir-cpuinfo-m>
 ```
 It is assumed here that Matlab is on your path and that mex is set up.
 
