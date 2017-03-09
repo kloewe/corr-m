@@ -16,12 +16,20 @@ and parallelization yield speedups up to ~20x compared to
 Matlab's corrcoef (R2011b).
 
 
+##### Prerequisites
+* 64-bit Linux
+* 64-bit Matlab
+* The GCC C compiler
+* A working MEX setup that uses GCC to compile the MEX files
+
+
 ##### Download
 Obtain an archive containing the lastest version from
 http://www.kristianloewe.com or clone the repository using
 ```
 $ git clone --recursive https://github.com/kloewe/corr-m.git
 ```
+
 
 ##### Installation
 Change to the root directory of the extracted archive (or the cloned
@@ -30,9 +38,9 @@ repository) and install corr-m and cpuinfo-m.
 $ ./install-m.sh corr-m <target-dir-corr-m>
 $ ./install-m.sh cpuinfo-m <target-dir-cpuinfo-m>
 ```
-It is assumed here that Matlab is on your path and that mex is set up.
+It is assumed here that Matlab is on your path and that MEX is set up.
 
-Next, start Matlab and add the appropriate directories to its path.
+Next, start Matlab and add the relevant directories to its path.
 ```
 >> addpath <target-dir-corr-m>
 >> addpath <target-dir-cpuinfo-m>
@@ -40,8 +48,7 @@ Next, start Matlab and add the appropriate directories to its path.
 
 
 ##### Documentation
-A brief description of and syntax for each function can be obtained in
-Matlab using
+A description of each function can be displayed in Matlab using
 ```
 >> help <function-name>
 ```
